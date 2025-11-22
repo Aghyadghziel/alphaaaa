@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اشترك في النشرة الإخبارية | ألفا فاكتوري</title>
+
+    <meta name="title" content="اشترك في النشرة الإخبارية | ألفا فاكتوري">
+    <meta name="description" content="انضم إلى النشرة الإخبارية لألفا فاكتوري واحصل على أحدث استراتيجيات النمو، نصائح صناعة المحتوى، وأسرار النجاح قبل الجميع.">
+    <meta name="keywords" content="نشرة إخبارية, ألفا فاكتوري, أخبار المحتوى, استراتيجيات النمو, تحديثات, محتوى, تسويق, إشعارات">
+    <meta name="author" content="zedcoder">
+
+    <meta name="robots" content="index, follow">
+    
+    <!-- Bootstrap 5 RTL CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- SweetAlert2 for beautiful popups -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.min.css?v=1.0.1">
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <!-- Logo -->
+            <a href="index.html" class="logo d-flex align-items-center justify-content-center text-decoration-none">
+                <h6 class="text-end d-none d-lg-block mt-2">ALPHA FACTORY
+                    <br>
+                    <span class="text-white-50">BETA</span>
+                </h6>
+                <img src="assets/alphaIcon.webp" alt="logo" />                
+            </a>
+
+
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav m-auto" >
+                <ul>
+                    <li><a href="index.html" class="">الرئيسية</a></li>
+                    <li><a href="index.html#features"> الميزات</a></li>
+                    <li><a href="index.html#tools"> الأدوات</a></li>
+                    <li><a href="newsletter.html"> النشرة الإخبارية</a></li>
+                    <li><a href="index.html#faqs"> الأسئلة الشائعة</a></li>
+                </ul>
+                
+                <!-- Buttons inside mobile menu -->
+                <div class="mobile-buttons">
+                    <a href="https://www.alphafactory.net/" class="btn-secondary"> تسجيل الدخول</a>
+                    <a href="https://app.iclosed.io/e/Alphafactory/AlphaFactory" class="btn-primary"> إنشاء حساب</a>
+                </div>
+            </nav>
+
+            <!-- CTA Buttons for Desktop -->
+            <div class="header-buttons d-none d-lg-flex">
+                <a href="https://www.alphafactory.net/" class="btn-secondary text-center"> تسجيل الدخول</a>
+                <a href="https://app.iclosed.io/e/Alphafactory/AlphaFactory" class="btn-primary text-center"> إنشاء حساب</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 mx-auto text-center">
+                    <!-- Logo -->
+                    <div class="logo-container">
+                        <img src="assets/alphaIcon.webp" width="80" alt="">
+                    </div>
+
+                    <!-- Heading -->
+                    <h1 class="newsletter-main-heading">
+                        سجل في النشرة الإخبارية الرسمية<br>
+                        الخاصة بالفا فاكتوري...
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="sub-text">
+                        نكشف لك أحدث استراتيجيات صناعة المحتوى والإنتاج
+                        التي نفتح لك آفاقاً جديدة لتوسيع نطاق علامتك التجارية وضمان
+                        انتشارها على كل أوسع نطاق.
+                    </p>
+
+                    <!-- Form -->
+                    <div class="form-container">
+                        <form id="newsletterForm">
+                            <div class="mb-3">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="firstName" 
+                                    name="firstName"
+                                    placeholder="الاسم الأول"
+                                    required
+                                >
+                            </div>
+                            <div class="mb-3">
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    id="emailAddress" 
+                                    name="emailAddress"
+                                    placeholder="البريد الإلكتروني"
+                                    required
+                                >
+                            </div>
+                            <button 
+                                type="submit" 
+                                class="cta-button" 
+                                id="submitBtn"
+                                disabled
+                            >
+                                سجل الآن!
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <script src="js/newsletter.js?v=1.0.0"></script>
+    <script src="js/nav.js?v=1.0.0"></script>
+</body>
+</html>
